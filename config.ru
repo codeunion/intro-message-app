@@ -1,3 +1,3 @@
-require "./message_app"
+require "./message-app"
 
 run Sinatra::Application
