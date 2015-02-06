@@ -4,8 +4,9 @@ get("/") do
   html = ""
 
   html.concat("<h1>Message of The Day</h1>")
-  html.concat("<a href='/message'>See today's message.</a>")
-  html.concat("<a href='/random_quote'>See a random quote.</a>")
+  html.concat("<a href='/message'>See today's message</a>")
+  html.concat(" &middot; ")
+  html.concat("<a href='/random_quote'>See a random quote</a>")
 
   body(html)
 end

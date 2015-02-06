@@ -1,8 +1,6 @@
 ## Specific to this project:
 .env
 *.db
-message-of-the-day.txt
-quotes.txt
 
 ## Specific to Mac OS X:
 .DS_Store
